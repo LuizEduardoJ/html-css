@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>  
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" onclick="clickMenu()">Menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, obcaecati officia. Ex rerum magni quia numquam similique excepturi error voluptas earum, ratione, dolore accusamus obcaecati aspernatur, mollitia reiciendis quos minima. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam consectetur doloribus quas laudantium odit debitis enim omnis a facilis incidunt cumque, quo quae atque labore, pariatur maxime asperiores accusantium saepe?</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolore aperiam, fuga asperiores placeat distinctio, dolores ipsam fugit earum mollitia ratione exercitationem, perspiciatis voluptate tempora culpa tenetur est dolorum corrupti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In suscipit natus blanditiis, quis esse dolores numquam soluta vel cum aliquid qui minus minima ipsam nisi quam dicta quia culpa repellendus!</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, molestias delectus sunt at eveniet numquam architecto modi molestiae! Facilis corporis molestias aspernatur ea cum. Ratione velit quae non voluptate perferendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis obcaecati nemo corrupti animi qui quas at tenetur, aut dicta sed repellendus facilis quia ea deleniti quos eaque, ullam laboriosam. Harum.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display ==  'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
